@@ -245,6 +245,115 @@ files:
     }
 
   learner_created: false
+- name: src/search/algorithm/LinearSearch.java
+  visible: true
+  text: |
+    package search.algorithm;
+
+    import java.util.ArrayList;
+    import java.util.Arrays;
+    import java.util.List;
+    import java.util.Locale;
+
+    public class LinearSearch {
+
+
+
+        public static List<Integer> search(List<String > arr, String searchForSearch){
+            List<Integer> index = new ArrayList<>();
+            for (int i =0;i< arr.size();i++) {
+                String temp = arr.get(i).toLowerCase(Locale.ROOT);
+                if (temp.contains(searchForSearch.toLowerCase(Locale.ROOT))) {
+                    index.add(i);
+                }
+            }
+            return index;
+        }
+
+    }
+  learner_created: true
+- name: src/search/UserInterface.java
+  visible: true
+  text: |
+    package search;
+
+    import search.algorithm.LinearSearch;
+
+    import java.util.ArrayList;
+    import java.util.List;
+    import java.util.Scanner;
+
+    public class UserInterface {
+        private Scanner sc = new Scanner(System.in);
+        List<String > peoples;
+
+
+
+        public void start(){
+            peoples = fillingInDate();
+
+            System.out.println("=== Menu ===\n" +
+                    "1. Find a person\n" +
+                    "2. Print all people\n" +
+                    "0. Exit");
+            String answer = sc.nextLine();
+
+            switch (answer){
+                case "1":
+                    findPerson(peoples);
+                    break;
+                case "2":
+                    printPerson();
+                    break;
+            }
+
+
+        }
+
+
+        private void printPerson(){
+            peoples.forEach(System.out::println);
+
+
+        }
+        private void printPerson(List<Integer> index){
+            if (index.size() > 0){
+                System.out.println("Found people:");
+                index.forEach(in ->{
+                    System.out.println(peoples.get(in));
+                });
+            }
+
+        }
+
+        private void findPerson(List<String > people){
+            System.out.println("Enter data to search people:");
+            String searchDate = sc.next();
+
+            List<Integer> index = LinearSearch.search(people,searchDate);
+            if (index.size() > 0){
+                printPerson(index);
+            }
+            else System.out.println("No matching people found.");
+
+
+        }
+
+
+        private  List<String> fillingInDate() {
+            System.out.println("Enter the number of people:");
+            int numberOfPeople = sc.nextInt();
+            List<String> people = new ArrayList<>();
+            for (int i = 0; i < numberOfPeople+1; i++) {
+                people.add(sc.nextLine());
+            }
+            return people;
+        }
+    }
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/66/stages/356/implement#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 25 Aug 2021 15:48:31 UTC
 record: -1
