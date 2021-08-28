@@ -1,34 +1,33 @@
 package search.algorithm;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.*;
 
 public class InvertedIndex {
 
 
-    static String [][] a = new String[5][5];
 
+    public static Map<String,List<Integer>> sr(List<String > dateFromFile){
+        Map<String, List<Integer>> index = new HashMap<>();
+        List<String > words = new ArrayList<>();
 
+        dateFromFile.forEach(s -> {
+            List<String> wordsPerLine = Arrays.asList((s.split(" ")));
+            words.addAll(wordsPerLine);
+            });
 
-    public static void start(String arr[][]){
-        Map<String ,List<Integer>> index = new HashMap<>();
-        List<String > l = new ArrayList<>();
-        for (int i =0;i<arr.length;i++){
-            for (int j = 0;j<arr[i].length;j++){
-                if (!index.containsKey(arr[i][j])){
-                    index.put(arr[i][j], Collections.emptyList());
+        for (String word:words){
+            List<Integer> IndexForWord = new ArrayList<>();
+            for (int i =0;i<dateFromFile.size();i++){
+                if (dateFromFile.get(i).toLowerCase(Locale.ROOT)
+                .contains(word.toLowerCase(Locale.ROOT))){
+                    IndexForWord.add(i);
                 }
-                for (int z =0;z<arr[j].length;z++){
-                    if (arr[i][j] == arr[j][z])
-                        l.add(arr[i][j]);
-
-                }
-
             }
+            index.put(word.toLowerCase(Locale.ROOT),IndexForWord);
         }
-        System.out.println(l);
-
-
-
+        return index;
     }
 
 }

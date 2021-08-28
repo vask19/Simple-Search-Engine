@@ -1,42 +1,51 @@
 package search;
 
+import search.algorithm.InvertedIndex;
 import search.algorithm.LinearSearch;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class UserInterface {
     private Scanner sc = new Scanner(System.in);
     List<String > peoples;
 
+
+
     public void start(String path){
+        Map<String ,List<Integer>> index = InvertedIndex.sr(
+                fillingInDate(path)
+        );
         peoples = fillingInDate(path);
         String answer = "-";
+
         do {
             System.out.println("\n=== Menu ===\n" +
                     "1. Find a person\n" +
                     "2. Print all people\n" +
                     "0. Exit");
-            answer = sc.nextLine();
+            answer = sc.next();
+            System.out.println();
+
 
             switch (answer){
                 case "1":
-                    findPerson(peoples);
+                    printPerson(findPerson(index));
                     break;
                 case "2":
                     printPerson();
                     break;
                 case "0":
-                    System.out.println("bye");
-                    break;
+                    System.out.println("Bye!");
+                    return;
                 default:
                     System.out.println("Incorrect option! Try again.");
+                    break;
             }
-        }while (!answer.equals("0"));
+
+        }while (true);
     }
 
 
@@ -44,27 +53,29 @@ public class UserInterface {
         peoples.forEach(System.out::println);
 
 
+
     }
     private void printPerson(List<Integer> index){
-        if (index.size() > 0){
+        if (index != null){
             System.out.println("Found people:");
             index.forEach(in ->{
                 System.out.println(peoples.get(in));
             });
         }
+        else System.out.println("No matching people found.");
 
     }
 
-    private void findPerson(List<String > people){
-        System.out.println("Enter data to search people:");
-        String searchDate = sc.next();
+    private  List<Integer> findPerson(Map<String ,List<Integer>> index){
+        System.out.println("Enter a name or email to search all suitable people.");
+        String searchDate = sc.next().toLowerCase(Locale.ROOT);
 
-        List<Integer> index = LinearSearch.search(people,searchDate);
-        if (index.size() > 0){
-            printPerson(index);
+
+        if (index.containsKey(searchDate)){
+
+            return index.get(searchDate);
         }
-        else System.out.println("No matching people found.");
-
+        return null;
 
     }
 

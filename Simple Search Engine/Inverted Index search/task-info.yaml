@@ -417,15 +417,15 @@ files:
         }
     }
   learner_created: true
-- name: src/search/test.java
+- name: src/search/algorithm/InvertedIndex.java
   visible: true
   learner_created: true
 - name: src/search/text.txt
   visible: true
   learner_created: true
-- name: src/search/algorithm/InvertedIndex.java
-  visible: true
-  learner_created: true
 feedback_link: https://hyperskill.org/projects/66/stages/358/implement#comment
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 28 Aug 2021 20:19:53 UTC
+record: 5
