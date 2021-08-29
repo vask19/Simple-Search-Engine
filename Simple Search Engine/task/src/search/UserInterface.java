@@ -8,27 +8,21 @@ import java.io.FileNotFoundException;
 
 import java.util.*;
 
-public class UserInterface {
+/*public class UserInterface {
     private Scanner sc = new Scanner(System.in);
     List<String > peoples;
 
-
-
     public void start(String path){
-        Map<String ,List<Integer>> index = InvertedIndex.sr(
-                fillingInDate(path)
-        );
         peoples = fillingInDate(path);
-        String answer = "-";
-
+        Map<String ,List<Integer>> index = InvertedIndex.start(
+              peoples
+        );
         do {
             System.out.println("\n=== Menu ===\n" +
                     "1. Find a person\n" +
                     "2. Print all people\n" +
                     "0. Exit");
-            answer = sc.next();
-            System.out.println();
-
+            String answer = sc.nextLine();
 
             switch (answer){
                 case "1":
@@ -44,15 +38,11 @@ public class UserInterface {
                     System.out.println("Incorrect option! Try again.");
                     break;
             }
-
         }while (true);
     }
 
-
     private void printPerson(){
         peoples.forEach(System.out::println);
-
-
 
     }
     private void printPerson(List<Integer> index){
@@ -63,28 +53,21 @@ public class UserInterface {
             });
         }
         else System.out.println("No matching people found.");
-
     }
 
     private  List<Integer> findPerson(Map<String ,List<Integer>> index){
         System.out.println("Enter a name or email to search all suitable people.");
-        String searchDate = sc.next().toLowerCase(Locale.ROOT);
-
-
+        String searchDate = sc.nextLine().toLowerCase(Locale.ROOT);
         if (index.containsKey(searchDate)){
-
             return index.get(searchDate);
         }
         return null;
-
     }
-
 
     private  List<String> fillingInDate(String path) {
         return readFile(path);
 
     }
-
 
     private List<String >  readFile(String path){
         List<String > peoples = new ArrayList<>();
@@ -98,7 +81,5 @@ public class UserInterface {
         }
 
         return peoples;
-
-
     }
-}
+}*/
