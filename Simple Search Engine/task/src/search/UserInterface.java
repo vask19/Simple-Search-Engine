@@ -1,22 +1,24 @@
 package search;
 
+import search.algorithm.All;
+import search.algorithm.Any;
 import search.algorithm.InvertedIndex;
-import search.algorithm.LinearSearch;
+import search.algorithm.InvertedIndexSender;
+
 
 import java.io.File;
 import java.io.FileNotFoundException;
 
 import java.util.*;
 
-/*public class UserInterface {
+public class UserInterface {
     private Scanner sc = new Scanner(System.in);
+    private InvertedIndexSender invertedIndexSender = new InvertedIndexSender();
     List<String > peoples;
 
     public void start(String path){
         peoples = fillingInDate(path);
-        Map<String ,List<Integer>> index = InvertedIndex.start(
-              peoples
-        );
+
         do {
             System.out.println("\n=== Menu ===\n" +
                     "1. Find a person\n" +
@@ -26,7 +28,8 @@ import java.util.*;
 
             switch (answer){
                 case "1":
-                    printPerson(findPerson(index));
+                    printPerson(peoples);
+
                     break;
                 case "2":
                     printPerson();
@@ -45,7 +48,14 @@ import java.util.*;
         peoples.forEach(System.out::println);
 
     }
-    private void printPerson(List<Integer> index){
+    private void printPerson(List<String > date){
+        System.out.println("Enter a name or email to search all suitable people.");
+        String answer = sc.nextLine();
+        List<String > dateForSearch = new ArrayList<>();
+        dateForSearch.add(answer);
+        invertedIndexSender.setIndex(new Any());
+        List<Integer> index = invertedIndexSender.start(date,dateForSearch);
+
         if (index != null){
             System.out.println("Found people:");
             index.forEach(in ->{
@@ -55,14 +65,8 @@ import java.util.*;
         else System.out.println("No matching people found.");
     }
 
-    private  List<Integer> findPerson(Map<String ,List<Integer>> index){
-        System.out.println("Enter a name or email to search all suitable people.");
-        String searchDate = sc.nextLine().toLowerCase(Locale.ROOT);
-        if (index.containsKey(searchDate)){
-            return index.get(searchDate);
-        }
-        return null;
-    }
+
+
 
     private  List<String> fillingInDate(String path) {
         return readFile(path);
@@ -82,4 +86,4 @@ import java.util.*;
 
         return peoples;
     }
-}*/
+}
