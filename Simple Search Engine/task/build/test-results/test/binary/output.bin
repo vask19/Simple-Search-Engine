@@ -5,132 +5,11 @@
 1. Find a person
 2. Print all people
 	0. Exit
-> 2
-
-Kristofer Galley
--Fernando Marbury fernando_marbury@gmail.com
- Kristyn Nix nix-kris@gmail.com
-Regenia Enderle
-Malena Gray
-Colette Mattei
-Wendolyn Mcphillips
-
-Jim Gray
-Coreen Beckham
-Bob Yeh bobyeah@gmail.com
-"Shannan Bob stropeshah@gmail.com
-Yer Fillion
-#Margene Resendez marres@gmail.com
-Blossom Ambler
-!Teri Ledet teri_ledet@gmail.com
-Dana Baron baron@gmail.com
-Abram Goldsberry
-Yer Leopold
-Stefania Trunzo
-Alexis Leopold
-Carlene Bob
-Oliver Dacruz
-Jonie Richter
-'Pasquale Gallien gallien@evilcorp.com
-Verdie Gentle
-&Gerardo Strouth gallien@evilcorp.com
-Agripina Bob
-Latricia Niebuhr
-Malena Schommer
-Drema Leopold
-Heide Payeur
-Ranae Digiovanni
-Simona Pereira
-Nick Digiovanni
-)Angelita Wigington gallien@evilcorp.com
-Elin Gray
-Dwain Trunzo
-Boris Beiler
-Remi Malek fsociefy@gmail.com
-)Demetria Hostetler gallien@evilcorp.com
-Nydia Mcduffie
-Florencio Defibaugh
-Warner Giblin
-
-Bob Mans
-
-Shu Gray
-Kaycee Gray
-'Victorina Froehlich victory@gmail.com
-Roseanne Gray
-Erica Radford hisam@gmail.com
-Elyse Pauling
-
-=== Menu ===
-1. Find a person
-2. Print all people
-	0. Exit
-> 0
-
-Bye!
-[1;31m
-Start test 2[0m
-
-=== Menu ===
-1. Find a person
-2. Print all people
-	0. Exit
 > 1
-
+,Select a matching strategy: ALL, ANY, NONE
+> ANY
 6Enter a name or email to search all suitable people.
-	> qwerty
-No matching people found.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-	0. Exit
-> 0
-
-Bye!
-[1;31m
-Start test 3[0m
-
-=== Menu ===
-1. Find a person
-2. Print all people
-	0. Exit
-> 1
-
-6Enter a name or email to search all suitable people.
-
-> Leopold
-Found people:
-Yer Leopold
-Alexis Leopold
-Drema Leopold
-
-=== Menu ===
-1. Find a person
-2. Print all people
-	0. Exit
-> 0
-
-Bye!
-[1;31m
-Start test 4[0m
-
-=== Menu ===
-1. Find a person
-2. Print all people
-	0. Exit
-> 3
-
-Incorrect option! Try again.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-	0. Exit
-> 1
-
-6Enter a name or email to search all suitable people.
-> Bob
+> bob gallien@evilcorp.com
 Found people:
 Bob Yeh bobyeah@gmail.com
 "Shannan Bob stropeshah@gmail.com
@@ -138,73 +17,16 @@ Shu Gray
 Agripina Bob
 
 Bob Mans
-
-=== Menu ===
-1. Find a person
-2. Print all people
-	0. Exit
-> 2
-
-Kristofer Galley
--Fernando Marbury fernando_marbury@gmail.com
- Kristyn Nix nix-kris@gmail.com
-Regenia Enderle
-Malena Gray
-Colette Mattei
-Wendolyn Mcphillips
-
-Jim Gray
-Coreen Beckham
-Bob Yeh bobyeah@gmail.com
-"Shannan Bob stropeshah@gmail.com
-Yer Fillion
-#Margene Resendez marres@gmail.com
-Blossom Ambler
-!Teri Ledet teri_ledet@gmail.com
-Dana Baron baron@gmail.com
-Abram Goldsberry
-Yer Leopold
-Stefania Trunzo
-Alexis Leopold
-Carlene Bob
-Oliver Dacruz
-Jonie Richter
 'Pasquale Gallien gallien@evilcorp.com
-Verdie Gentle
 &Gerardo Strouth gallien@evilcorp.com
-Agripina Bob
-Latricia Niebuhr
-Malena Schommer
-Drema Leopold
-Heide Payeur
-Ranae Digiovanni
-Simona Pereira
-Nick Digiovanni
 )Angelita Wigington gallien@evilcorp.com
-Elin Gray
-Dwain Trunzo
-Boris Beiler
-Remi Malek fsociefy@gmail.com
 )Demetria Hostetler gallien@evilcorp.com
-Nydia Mcduffie
-Florencio Defibaugh
-Warner Giblin
-
-Bob Mans
-
-Shu Gray
-Kaycee Gray
-'Victorina Froehlich victory@gmail.com
-Roseanne Gray
-Erica Radford hisam@gmail.com
-Elyse Pauling
 
 === Menu ===
 1. Find a person
 2. Print all people
 	0. Exit
 > 2
-
 Kristofer Galley
 -Fernando Marbury fernando_marbury@gmail.com
  Kristyn Nix nix-kris@gmail.com
@@ -264,353 +86,143 @@ Shu Gray
 2. Print all people
 	0. Exit
 > 1
-
+,Select a matching strategy: ALL, ANY, NONE
+> NONE
 6Enter a name or email to search all suitable people.
-
-> Leopold
+> bob gallien@evilcorp.com
 Found people:
-Yer Leopold
-Alexis Leopold
-Drema Leopold
-
-=== Menu ===
-1. Find a person
-2. Print all people
-	0. Exit
-> 0
-
-Bye!
-[1;31m
-Start test 5[0m
-
-=== Menu ===
-1. Find a person
-2. Print all people
-	0. Exit
-> 1
-
-6Enter a name or email to search all suitable people.
-> @
-No matching people found.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-	0. Exit
-> 1
-
-6Enter a name or email to search all suitable people.
-
-> Leopold
-Found people:
-Yer Leopold
-Alexis Leopold
-Drema Leopold
-
-=== Menu ===
-1. Find a person
-2. Print all people
-	0. Exit
-> 0
-
-Bye!
-[1;31m
-Start test 6[0m
-
-=== Menu ===
-1. Find a person
-2. Print all people
-	0. Exit
-> 0
-
-Bye!
-[1;31m
-Start test 7[0m
-
-=== Menu ===
-1. Find a person
-2. Print all people
-	0. Exit
-> 1
-
-6Enter a name or email to search all suitable people.
-"> this text never find some match
-No matching people found.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-	0. Exit
-
-Incorrect option! Try again.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-	0. Exit
-
-Incorrect option! Try again.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-	0. Exit
-
-Incorrect option! Try again.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-	0. Exit
-
-Incorrect option! Try again.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-	0. Exit
-
-Incorrect option! Try again.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-	0. Exit
-> 0
-
-Bye!
-[1;31m
-Start test 8[0m
-
-=== Menu ===
-1. Find a person
-2. Print all people
-	0. Exit
-> 1
-
-6Enter a name or email to search all suitable people.
-> h
-No matching people found.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-	0. Exit
-> 1
-
-6Enter a name or email to search all suitable people.
-> gallien@evilcorp.com
-Found people:
-'Pasquale Gallien gallien@evilcorp.com
-&Gerardo Strouth gallien@evilcorp.com
-)Angelita Wigington gallien@evilcorp.com
-)Demetria Hostetler gallien@evilcorp.com
-
-=== Menu ===
-1. Find a person
-2. Print all people
-	0. Exit
-> 0
-
-Bye!
-[1;31m
-Start test 9[0m
-
-=== Menu ===
-1. Find a person
-2. Print all people
-	0. Exit
-> 4
-
-Incorrect option! Try again.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-	0. Exit
-> 2
-
-Kristofer Galley
--Fernando Marbury fernando_marbury@gmail.com
- Kristyn Nix nix-kris@gmail.com
-Regenia Enderle
-Malena Gray
-Colette Mattei
-Wendolyn Mcphillips
-
-Jim Gray
-Coreen Beckham
 Bob Yeh bobyeah@gmail.com
 "Shannan Bob stropeshah@gmail.com
-Yer Fillion
-#Margene Resendez marres@gmail.com
-Blossom Ambler
-!Teri Ledet teri_ledet@gmail.com
-Dana Baron baron@gmail.com
-Abram Goldsberry
-Yer Leopold
-Stefania Trunzo
-Alexis Leopold
 Carlene Bob
-Oliver Dacruz
-Jonie Richter
-'Pasquale Gallien gallien@evilcorp.com
-Verdie Gentle
-&Gerardo Strouth gallien@evilcorp.com
 Agripina Bob
-Latricia Niebuhr
-Malena Schommer
-Drema Leopold
-Heide Payeur
-Ranae Digiovanni
-Simona Pereira
-Nick Digiovanni
-)Angelita Wigington gallien@evilcorp.com
-Elin Gray
-Dwain Trunzo
-Boris Beiler
-Remi Malek fsociefy@gmail.com
-)Demetria Hostetler gallien@evilcorp.com
-Nydia Mcduffie
-Florencio Defibaugh
-Warner Giblin
 
 Bob Mans
+'Pasquale Gallien gallien@evilcorp.com
+&Gerardo Strouth gallien@evilcorp.com
+)Angelita Wigington gallien@evilcorp.com
+)Demetria Hostetler gallien@evilcorp.com
+Yer Leopold
+Alexis Leopold
+Drema Leopold
+'Victorina Froehlich victory@gmail.com
+Malena Gray
+Malena Schommer
+Remi Malek fsociefy@gmail.com
+'Victorina Froehlich victory@gmail.com
+
+Jim Gray
+Jonie Richter
+Simona Pereira
+Florencio Defibaugh
+#Margene Resendez marres@gmail.com
+Blossom Ambler
+Nydia Mcduffie
+ Kristyn Nix nix-kris@gmail.com
+Abram Goldsberry
+Verdie Gentle
+ Kristyn Nix nix-kris@gmail.com
+Dana Baron baron@gmail.com
+Elin Gray
+Kristofer Galley
+Kaycee Gray
+Yer Fillion
+Boris Beiler
+Ranae Digiovanni
+Nick Digiovanni
+#Margene Resendez marres@gmail.com
+Jonie Richter
+Nydia Mcduffie
+Warner Giblin
+Regenia Enderle
+Agripina Bob
+)Angelita Wigington gallien@evilcorp.com
+Bob Yeh bobyeah@gmail.com
+"Shannan Bob stropeshah@gmail.com
+Carlene Bob
+Agripina Bob
+
+Bob Mans
+Heide Payeur
+Colette Mattei
+Boris Beiler
+'Victorina Froehlich victory@gmail.com
+-Fernando Marbury fernando_marbury@gmail.com
+Remi Malek fsociefy@gmail.com
+&Gerardo Strouth gallien@evilcorp.com
+Dana Baron baron@gmail.com
+Latricia Niebuhr
+
+Shu Gray
+Kristofer Galley
+Elyse Pauling
+Coreen Beckham
+Carlene Bob
+Nick Digiovanni
+&Gerardo Strouth gallien@evilcorp.com
+Malena Gray
+
+Jim Gray
+Elin Gray
 
 Shu Gray
 Kaycee Gray
-'Victorina Froehlich victory@gmail.com
 Roseanne Gray
-Erica Radford hisam@gmail.com
-Elyse Pauling
-
-=== Menu ===
-1. Find a person
-2. Print all people
-	0. Exit
-> 2
-
-Kristofer Galley
+Malena Schommer
+Remi Malek fsociefy@gmail.com
 -Fernando Marbury fernando_marbury@gmail.com
  Kristyn Nix nix-kris@gmail.com
-Regenia Enderle
-Malena Gray
-Colette Mattei
+Abram Goldsberry
+Stefania Trunzo
+!Teri Ledet teri_ledet@gmail.com
 Wendolyn Mcphillips
-
-Jim Gray
-Coreen Beckham
 Bob Yeh bobyeah@gmail.com
-"Shannan Bob stropeshah@gmail.com
-Yer Fillion
-#Margene Resendez marres@gmail.com
-Blossom Ambler
+'Pasquale Gallien gallien@evilcorp.com
+&Gerardo Strouth gallien@evilcorp.com
+)Angelita Wigington gallien@evilcorp.com
+)Demetria Hostetler gallien@evilcorp.com
+Verdie Gentle
+Drema Leopold
 !Teri Ledet teri_ledet@gmail.com
 Dana Baron baron@gmail.com
-Abram Goldsberry
-Yer Leopold
+Bob Yeh bobyeah@gmail.com
+-Fernando Marbury fernando_marbury@gmail.com
+Blossom Ambler
 Stefania Trunzo
-Alexis Leopold
-Carlene Bob
-Oliver Dacruz
-Jonie Richter
-'Pasquale Gallien gallien@evilcorp.com
-Verdie Gentle
-&Gerardo Strouth gallien@evilcorp.com
-Agripina Bob
-Latricia Niebuhr
-Malena Schommer
-Drema Leopold
-Heide Payeur
-Ranae Digiovanni
-Simona Pereira
-Nick Digiovanni
-)Angelita Wigington gallien@evilcorp.com
-Elin Gray
 Dwain Trunzo
-Boris Beiler
-Remi Malek fsociefy@gmail.com
-)Demetria Hostetler gallien@evilcorp.com
-Nydia Mcduffie
-Florencio Defibaugh
+Heide Payeur
+Yer Fillion
+Yer Leopold
+Roseanne Gray
+Wendolyn Mcphillips
+Coreen Beckham
 Warner Giblin
 
 Bob Mans
-
-Shu Gray
-Kaycee Gray
-'Victorina Froehlich victory@gmail.com
-Roseanne Gray
+!Teri Ledet teri_ledet@gmail.com
+Dwain Trunzo
 Erica Radford hisam@gmail.com
-Elyse Pauling
-
-=== Menu ===
-1. Find a person
-2. Print all people
-	0. Exit
-> 1
-
-6Enter a name or email to search all suitable people.
-#> this text never gonna be matched
-No matching people found.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-	0. Exit
-
-Incorrect option! Try again.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-	0. Exit
-
-Incorrect option! Try again.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-	0. Exit
-
-Incorrect option! Try again.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-	0. Exit
-
-Incorrect option! Try again.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-	0. Exit
-
-Incorrect option! Try again.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-	0. Exit
-> 1
-
-6Enter a name or email to search all suitable people.
-> h
-No matching people found.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-	0. Exit
-> 1
-
-6Enter a name or email to search all suitable people.
-> gallien@evilcorp.com
-Found people:
+Alexis Leopold
+Latricia Niebuhr
+)Demetria Hostetler gallien@evilcorp.com
+"Shannan Bob stropeshah@gmail.com
+Erica Radford hisam@gmail.com
+Colette Mattei
 'Pasquale Gallien gallien@evilcorp.com
 &Gerardo Strouth gallien@evilcorp.com
 )Angelita Wigington gallien@evilcorp.com
+)Demetria Hostetler gallien@evilcorp.com
+"Shannan Bob stropeshah@gmail.com
+#Margene Resendez marres@gmail.com
+Ranae Digiovanni
+'Pasquale Gallien gallien@evilcorp.com
+Simona Pereira
+Elyse Pauling
+Regenia Enderle
+Oliver Dacruz
+Oliver Dacruz
+)Angelita Wigington gallien@evilcorp.com
+Florencio Defibaugh
+Erica Radford hisam@gmail.com
 )Demetria Hostetler gallien@evilcorp.com
 
 === Menu ===
@@ -618,5 +230,4 @@ Shu Gray
 2. Print all people
 	0. Exit
 > 0
-
 Bye!

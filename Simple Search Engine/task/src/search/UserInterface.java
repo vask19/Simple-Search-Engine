@@ -1,9 +1,6 @@
 package search;
 
-import search.algorithm.All;
-import search.algorithm.Any;
-import search.algorithm.InvertedIndex;
-import search.algorithm.InvertedIndexSender;
+import search.algorithm.*;
 
 
 import java.io.File;
@@ -49,11 +46,29 @@ public class UserInterface {
 
     }
     private void printPerson(List<String > date){
+        System.out.println("Select a matching strategy: ALL, ANY, NONE");
+        String strategy = sc.nextLine();
+        switch (strategy){
+            case "ALL":
+                invertedIndexSender.setIndex(new All());
+                break;
+
+            case "ANY":
+                invertedIndexSender.setIndex(new Any());
+                break;
+
+            case "NONE":
+                invertedIndexSender.setIndex(new None());
+                break;
+
+        }
+
+
         System.out.println("Enter a name or email to search all suitable people.");
         String answer = sc.nextLine();
         List<String > dateForSearch = new ArrayList<>();
         dateForSearch.add(answer);
-        invertedIndexSender.setIndex(new Any());
+
         List<Integer> index = invertedIndexSender.start(date,dateForSearch);
 
         if (index != null){

@@ -1,7 +1,288 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SimpleSearchEngineTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-28T20:19:52" hostname="HOME-PC" time="0.755">
+<testsuite name="SimpleSearchEngineTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-09-01T10:01:59" hostname="HOME-PC" time="0.63">
   <properties/>
-  <testcase name="start" classname="SimpleSearchEngineTest" time="0.755"/>
+  <testcase name="start" classname="SimpleSearchEngineTest" time="0.63">
+    <failure message="java.lang.AssertionError: Wrong answer in test #1&#10;&#10;Search result is not equal to the expected search&#10;&#10;Please find below the output of your program during this failed test.&#10;Note that the '&gt;' character indicates the beginning of the input line.&#10;&#10;---&#10;&#10;Arguments: --data names.txt&#10;&#10;=== Menu ===&#10;1. Find a person&#10;2. Print all people&#10;0. Exit&#10;&gt; 1&#10;Select a matching strategy: ALL, ANY, NONE&#10;&gt; ANY&#10;Enter a name or email to search all suitable people.&#10;&gt; bob gallien@evilcorp.com&#10;Found people:&#10;Bob Yeh bobyeah@gmail.com&#10;Shannan Bob stropeshah@gmail.com&#10;Carlene Bob&#10;Agripina Bob&#10;Bob Mans&#10;Pasquale Gallien gallien@evilcorp.com&#10;Gerardo Strouth gallien@evilcorp.com&#10;Angelita Wigington gallien@evilcorp.com&#10;Demetria Hostetler gallien@evilcorp.com&#10;&#10;=== Menu ===&#10;1. Find a person&#10;2. Print all people&#10;0. Exit&#10;&gt; 2&#10;Kristofer Galley&#10;Fernando Marbury fernando_marbury@gmail.com&#10;Kristyn Nix nix-kris@gmail.com&#10;Regenia Enderle&#10;Malena Gray&#10;Colette Mattei&#10;Wendolyn Mcphillips&#10;Jim Gray&#10;Coreen Beckham&#10;Bob Yeh bobyeah@gmail.com&#10;Shannan Bob stropeshah@gmail.com&#10;Yer Fillion&#10;Margene Resendez marres@gmail.com&#10;Blossom Ambler&#10;Teri Ledet teri_ledet@gmail.com&#10;Dana Baron baron@gmail.com&#10;Abram Goldsberry&#10;Yer Leopold&#10;Stefania Trunzo&#10;Alexis Leopold&#10;Carlene Bob&#10;Oliver Dacruz&#10;Jonie Richter&#10;Pasquale Gallien gallien@evilcorp.com&#10;Verdie Gentle&#10;Gerardo Strouth gallien@evilcorp.com&#10;Agripina Bob&#10;Latricia Niebuhr&#10;Malena Schommer&#10;Drema Leopold&#10;Heide Payeur&#10;Ranae Digiovanni&#10;Simona Pereira&#10;Nick Digiovanni&#10;Angelita Wigington gallien@evilcorp.com&#10;Elin Gray&#10;Dwain Trunzo&#10;Boris Beiler&#10;Remi Malek fsociefy@gmail.com&#10;Demetria Hostetler gallien@evilcorp.com&#10;Nydia Mcduffie&#10;Florencio Defibaugh&#10;Warner Giblin&#10;Bob Mans&#10;Shu Gray&#10;Kaycee Gray&#10;Victorina Froehlich victory@gmail.com&#10;Roseanne Gray&#10;Erica Radford hisam@gmail.com&#10;Elyse Pauling&#10;&#10;=== Menu ===&#10;1. Find a person&#10;2. Print all people&#10;0. Exit&#10;&gt; 1&#10;Select a matching strategy: ALL, ANY, NONE&#10;&gt; NONE&#10;Enter a name or email to search all suitable people.&#10;&gt; bob gallien@evilcorp.com&#10;Found people:&#10;Bob Yeh bobyeah@gmail.com&#10;Shannan Bob stropeshah@gmail.com&#10;Carlene Bob&#10;Agripina Bob&#10;Bob Mans&#10;Pasquale Gallien gallien@evilcorp.com&#10;Gerardo Strouth gallien@evilcorp.com&#10;Angelita Wigington gallien@evilcorp.com&#10;Demetria Hostetler gallien@evilcorp.com&#10;Yer Leopold&#10;Alexis Leopold&#10;Drema Leopold&#10;Victorina Froehlich victory@gmail.com&#10;Malena Gray&#10;Malena Schommer&#10;Remi Malek fsociefy@gmail.com&#10;Victorina Froehlich victory@gmail.com&#10;Jim Gray&#10;Jonie Richter&#10;Simona Pereira&#10;Florencio Defibaugh&#10;Margene Resendez marres@gmail.com&#10;Blossom Ambler&#10;Nydia Mcduffie&#10;Kristyn Nix nix-kris@gmail.com&#10;Abram Goldsberry&#10;Verdie Gentle&#10;Kristyn Nix nix-kris@gmail.com&#10;Dana Baron baron@gmail.com&#10;Elin Gray&#10;Kristofer Galley&#10;Kaycee Gray&#10;Yer Fillion&#10;Boris Beiler&#10;Ranae Digiovanni&#10;Nick Digiovanni&#10;Margene Resendez marres@gmail.com&#10;Jonie Richter&#10;Nydia Mcduffie&#10;Warner Giblin&#10;Regenia Enderle&#10;Agripina Bob&#10;Angelita Wigington gallien@evilcorp.com&#10;Bob Yeh bobyeah@gmail.com&#10;Shannan Bob stropeshah@gmail.com&#10;Carlene Bob&#10;Agripina Bob&#10;Bob Mans&#10;Heide Payeur&#10;Colette Mattei&#10;Boris Beiler&#10;Victorina Froehlich victory@gmail.com&#10;Fernando Marbury fernando_marbury@gmail.com&#10;Remi Malek fsociefy@gmail.com&#10;Gerardo Strouth gallien@evilcorp.com&#10;Dana Baron baron@gmail.com&#10;Latricia Niebuhr&#10;Shu Gray&#10;Kristofer Galley&#10;Elyse Pauling&#10;Coreen Beckham&#10;Carlene Bob&#10;Nick Digiovanni&#10;Gerardo Strouth gallien@evilcorp.com&#10;Malena Gray&#10;Jim Gray&#10;Elin Gray&#10;Shu Gray&#10;Kaycee Gray&#10;Roseanne Gray&#10;Malena Schommer&#10;Remi Malek fsociefy@gmail.com&#10;Fernando Marbury fernando_marbury@gmail.com&#10;Kristyn Nix nix-kris@gmail.com&#10;Abram Goldsberry&#10;Stefania Trunzo&#10;Teri Ledet teri_ledet@gmail.com&#10;Wendolyn Mcphillips&#10;Bob Yeh bobyeah@gmail.com&#10;Pasquale Gallien gallien@evilcorp.com&#10;Gerardo Strouth gallien@evilcorp.com&#10;Angelita Wigington gallien@evilcorp.com&#10;Demetria Hostetler gallien@evilcorp.com&#10;Verdie Gentle&#10;Drema Leopold&#10;Teri Ledet teri_ledet@gmail.com&#10;Dana Baron baron@gmail.com&#10;Bob Yeh bobyeah@gmail.com&#10;Fernando Marbury fernando_marbury@gmail.com&#10;Blossom Ambler&#10;Stefania Trunzo&#10;Dwain Trunzo&#10;Heide Payeur&#10;Yer Fillion&#10;Yer Leopold&#10;Roseanne Gray&#10;Wendolyn Mcphillips&#10;Coreen Beckham&#10;Warner Giblin&#10;Bob Mans&#10;Teri Ledet teri_ledet@gmail.com&#10;Dwain Trunzo&#10;Erica Radford hisam@gmail.com&#10;Alexis Leopold&#10;Latricia Niebuhr&#10;Demetria Hostetler gallien@evilcorp.com&#10;Shannan Bob stropeshah@gmail.com&#10;Erica Radford hisam@gmail.com&#10;Colette Mattei&#10;Pasquale Gallien gallien@evilcorp.com&#10;Gerardo Strouth gallien@evilcorp.com&#10;Angelita Wigington gallien@evilcorp.com&#10;Demetria Hostetler gallien@evilcorp.com&#10;Shannan Bob stropeshah@gmail.com&#10;Margene Resendez marres@gmail.com&#10;Ranae Digiovanni&#10;Pasquale Gallien gallien@evilcorp.com&#10;Simona Pereira&#10;Elyse Pauling&#10;Regenia Enderle&#10;Oliver Dacruz&#10;Oliver Dacruz&#10;Angelita Wigington gallien@evilcorp.com&#10;Florencio Defibaugh&#10;Erica Radford hisam@gmail.com&#10;Demetria Hostetler gallien@evilcorp.com&#10;&#10;=== Menu ===&#10;1. Find a person&#10;2. Print all people&#10;0. Exit&#10;&gt; 0&#10;Bye!" type="java.lang.AssertionError">java.lang.AssertionError: Wrong answer in test #1
+
+Search result is not equal to the expected search
+
+Please find below the output of your program during this failed test.
+Note that the '&gt;' character indicates the beginning of the input line.
+
+---
+
+Arguments: --data names.txt
+
+=== Menu ===
+1. Find a person
+2. Print all people
+0. Exit
+&gt; 1
+Select a matching strategy: ALL, ANY, NONE
+&gt; ANY
+Enter a name or email to search all suitable people.
+&gt; bob gallien@evilcorp.com
+Found people:
+Bob Yeh bobyeah@gmail.com
+Shannan Bob stropeshah@gmail.com
+Carlene Bob
+Agripina Bob
+Bob Mans
+Pasquale Gallien gallien@evilcorp.com
+Gerardo Strouth gallien@evilcorp.com
+Angelita Wigington gallien@evilcorp.com
+Demetria Hostetler gallien@evilcorp.com
+
+=== Menu ===
+1. Find a person
+2. Print all people
+0. Exit
+&gt; 2
+Kristofer Galley
+Fernando Marbury fernando_marbury@gmail.com
+Kristyn Nix nix-kris@gmail.com
+Regenia Enderle
+Malena Gray
+Colette Mattei
+Wendolyn Mcphillips
+Jim Gray
+Coreen Beckham
+Bob Yeh bobyeah@gmail.com
+Shannan Bob stropeshah@gmail.com
+Yer Fillion
+Margene Resendez marres@gmail.com
+Blossom Ambler
+Teri Ledet teri_ledet@gmail.com
+Dana Baron baron@gmail.com
+Abram Goldsberry
+Yer Leopold
+Stefania Trunzo
+Alexis Leopold
+Carlene Bob
+Oliver Dacruz
+Jonie Richter
+Pasquale Gallien gallien@evilcorp.com
+Verdie Gentle
+Gerardo Strouth gallien@evilcorp.com
+Agripina Bob
+Latricia Niebuhr
+Malena Schommer
+Drema Leopold
+Heide Payeur
+Ranae Digiovanni
+Simona Pereira
+Nick Digiovanni
+Angelita Wigington gallien@evilcorp.com
+Elin Gray
+Dwain Trunzo
+Boris Beiler
+Remi Malek fsociefy@gmail.com
+Demetria Hostetler gallien@evilcorp.com
+Nydia Mcduffie
+Florencio Defibaugh
+Warner Giblin
+Bob Mans
+Shu Gray
+Kaycee Gray
+Victorina Froehlich victory@gmail.com
+Roseanne Gray
+Erica Radford hisam@gmail.com
+Elyse Pauling
+
+=== Menu ===
+1. Find a person
+2. Print all people
+0. Exit
+&gt; 1
+Select a matching strategy: ALL, ANY, NONE
+&gt; NONE
+Enter a name or email to search all suitable people.
+&gt; bob gallien@evilcorp.com
+Found people:
+Bob Yeh bobyeah@gmail.com
+Shannan Bob stropeshah@gmail.com
+Carlene Bob
+Agripina Bob
+Bob Mans
+Pasquale Gallien gallien@evilcorp.com
+Gerardo Strouth gallien@evilcorp.com
+Angelita Wigington gallien@evilcorp.com
+Demetria Hostetler gallien@evilcorp.com
+Yer Leopold
+Alexis Leopold
+Drema Leopold
+Victorina Froehlich victory@gmail.com
+Malena Gray
+Malena Schommer
+Remi Malek fsociefy@gmail.com
+Victorina Froehlich victory@gmail.com
+Jim Gray
+Jonie Richter
+Simona Pereira
+Florencio Defibaugh
+Margene Resendez marres@gmail.com
+Blossom Ambler
+Nydia Mcduffie
+Kristyn Nix nix-kris@gmail.com
+Abram Goldsberry
+Verdie Gentle
+Kristyn Nix nix-kris@gmail.com
+Dana Baron baron@gmail.com
+Elin Gray
+Kristofer Galley
+Kaycee Gray
+Yer Fillion
+Boris Beiler
+Ranae Digiovanni
+Nick Digiovanni
+Margene Resendez marres@gmail.com
+Jonie Richter
+Nydia Mcduffie
+Warner Giblin
+Regenia Enderle
+Agripina Bob
+Angelita Wigington gallien@evilcorp.com
+Bob Yeh bobyeah@gmail.com
+Shannan Bob stropeshah@gmail.com
+Carlene Bob
+Agripina Bob
+Bob Mans
+Heide Payeur
+Colette Mattei
+Boris Beiler
+Victorina Froehlich victory@gmail.com
+Fernando Marbury fernando_marbury@gmail.com
+Remi Malek fsociefy@gmail.com
+Gerardo Strouth gallien@evilcorp.com
+Dana Baron baron@gmail.com
+Latricia Niebuhr
+Shu Gray
+Kristofer Galley
+Elyse Pauling
+Coreen Beckham
+Carlene Bob
+Nick Digiovanni
+Gerardo Strouth gallien@evilcorp.com
+Malena Gray
+Jim Gray
+Elin Gray
+Shu Gray
+Kaycee Gray
+Roseanne Gray
+Malena Schommer
+Remi Malek fsociefy@gmail.com
+Fernando Marbury fernando_marbury@gmail.com
+Kristyn Nix nix-kris@gmail.com
+Abram Goldsberry
+Stefania Trunzo
+Teri Ledet teri_ledet@gmail.com
+Wendolyn Mcphillips
+Bob Yeh bobyeah@gmail.com
+Pasquale Gallien gallien@evilcorp.com
+Gerardo Strouth gallien@evilcorp.com
+Angelita Wigington gallien@evilcorp.com
+Demetria Hostetler gallien@evilcorp.com
+Verdie Gentle
+Drema Leopold
+Teri Ledet teri_ledet@gmail.com
+Dana Baron baron@gmail.com
+Bob Yeh bobyeah@gmail.com
+Fernando Marbury fernando_marbury@gmail.com
+Blossom Ambler
+Stefania Trunzo
+Dwain Trunzo
+Heide Payeur
+Yer Fillion
+Yer Leopold
+Roseanne Gray
+Wendolyn Mcphillips
+Coreen Beckham
+Warner Giblin
+Bob Mans
+Teri Ledet teri_ledet@gmail.com
+Dwain Trunzo
+Erica Radford hisam@gmail.com
+Alexis Leopold
+Latricia Niebuhr
+Demetria Hostetler gallien@evilcorp.com
+Shannan Bob stropeshah@gmail.com
+Erica Radford hisam@gmail.com
+Colette Mattei
+Pasquale Gallien gallien@evilcorp.com
+Gerardo Strouth gallien@evilcorp.com
+Angelita Wigington gallien@evilcorp.com
+Demetria Hostetler gallien@evilcorp.com
+Shannan Bob stropeshah@gmail.com
+Margene Resendez marres@gmail.com
+Ranae Digiovanni
+Pasquale Gallien gallien@evilcorp.com
+Simona Pereira
+Elyse Pauling
+Regenia Enderle
+Oliver Dacruz
+Oliver Dacruz
+Angelita Wigington gallien@evilcorp.com
+Florencio Defibaugh
+Erica Radford hisam@gmail.com
+Demetria Hostetler gallien@evilcorp.com
+
+=== Menu ===
+1. Find a person
+2. Print all people
+0. Exit
+&gt; 0
+Bye!
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.hyperskill.hstest.stage.StageTest.start(StageTest.java:155)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:121)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</failure>
+  </testcase>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
 
@@ -9,198 +290,27 @@ Start test 1?[0m
 1. Find a person
 2. Print all people
 0. Exit
-> 2
-
-Kristofer Galley
-Fernando Marbury fernando_marbury@gmail.com
-Kristyn Nix nix-kris@gmail.com
-Regenia Enderle
-Malena Gray
-Colette Mattei
-Wendolyn Mcphillips
-Jim Gray
-Coreen Beckham
-Bob Yeh bobyeah@gmail.com
-Shannan Bob stropeshah@gmail.com
-Yer Fillion
-Margene Resendez marres@gmail.com
-Blossom Ambler
-Teri Ledet teri_ledet@gmail.com
-Dana Baron baron@gmail.com
-Abram Goldsberry
-Yer Leopold
-Stefania Trunzo
-Alexis Leopold
-Carlene Bob
-Oliver Dacruz
-Jonie Richter
-Pasquale Gallien gallien@evilcorp.com
-Verdie Gentle
-Gerardo Strouth gallien@evilcorp.com
-Agripina Bob
-Latricia Niebuhr
-Malena Schommer
-Drema Leopold
-Heide Payeur
-Ranae Digiovanni
-Simona Pereira
-Nick Digiovanni
-Angelita Wigington gallien@evilcorp.com
-Elin Gray
-Dwain Trunzo
-Boris Beiler
-Remi Malek fsociefy@gmail.com
-Demetria Hostetler gallien@evilcorp.com
-Nydia Mcduffie
-Florencio Defibaugh
-Warner Giblin
-Bob Mans
-Shu Gray
-Kaycee Gray
-Victorina Froehlich victory@gmail.com
-Roseanne Gray
-Erica Radford hisam@gmail.com
-Elyse Pauling
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
-> 0
-
-Bye!
-?[1;31m
-Start test 2?[0m
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
 > 1
-
+Select a matching strategy: ALL, ANY, NONE
+> ANY
 Enter a name or email to search all suitable people.
-> qwerty
-No matching people found.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
-> 0
-
-Bye!
-?[1;31m
-Start test 3?[0m
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
-> 1
-
-Enter a name or email to search all suitable people.
-> Leopold
-Found people:
-Yer Leopold
-Alexis Leopold
-Drema Leopold
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
-> 0
-
-Bye!
-?[1;31m
-Start test 4?[0m
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
-> 3
-
-Incorrect option! Try again.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
-> 1
-
-Enter a name or email to search all suitable people.
-> Bob
+> bob gallien@evilcorp.com
 Found people:
 Bob Yeh bobyeah@gmail.com
 Shannan Bob stropeshah@gmail.com
 Carlene Bob
 Agripina Bob
 Bob Mans
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
-> 2
-
-Kristofer Galley
-Fernando Marbury fernando_marbury@gmail.com
-Kristyn Nix nix-kris@gmail.com
-Regenia Enderle
-Malena Gray
-Colette Mattei
-Wendolyn Mcphillips
-Jim Gray
-Coreen Beckham
-Bob Yeh bobyeah@gmail.com
-Shannan Bob stropeshah@gmail.com
-Yer Fillion
-Margene Resendez marres@gmail.com
-Blossom Ambler
-Teri Ledet teri_ledet@gmail.com
-Dana Baron baron@gmail.com
-Abram Goldsberry
-Yer Leopold
-Stefania Trunzo
-Alexis Leopold
-Carlene Bob
-Oliver Dacruz
-Jonie Richter
 Pasquale Gallien gallien@evilcorp.com
-Verdie Gentle
 Gerardo Strouth gallien@evilcorp.com
-Agripina Bob
-Latricia Niebuhr
-Malena Schommer
-Drema Leopold
-Heide Payeur
-Ranae Digiovanni
-Simona Pereira
-Nick Digiovanni
 Angelita Wigington gallien@evilcorp.com
-Elin Gray
-Dwain Trunzo
-Boris Beiler
-Remi Malek fsociefy@gmail.com
 Demetria Hostetler gallien@evilcorp.com
-Nydia Mcduffie
-Florencio Defibaugh
-Warner Giblin
-Bob Mans
-Shu Gray
-Kaycee Gray
-Victorina Froehlich victory@gmail.com
-Roseanne Gray
-Erica Radford hisam@gmail.com
-Elyse Pauling
 
 === Menu ===
 1. Find a person
 2. Print all people
 0. Exit
 > 2
-
 Kristofer Galley
 Fernando Marbury fernando_marbury@gmail.com
 Kristyn Nix nix-kris@gmail.com
@@ -257,345 +367,136 @@ Elyse Pauling
 2. Print all people
 0. Exit
 > 1
-
+Select a matching strategy: ALL, ANY, NONE
+> NONE
 Enter a name or email to search all suitable people.
-> Leopold
+> bob gallien@evilcorp.com
 Found people:
-Yer Leopold
-Alexis Leopold
-Drema Leopold
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
-> 0
-
-Bye!
-?[1;31m
-Start test 5?[0m
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
-> 1
-
-Enter a name or email to search all suitable people.
-> @
-No matching people found.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
-> 1
-
-Enter a name or email to search all suitable people.
-> Leopold
-Found people:
-Yer Leopold
-Alexis Leopold
-Drema Leopold
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
-> 0
-
-Bye!
-?[1;31m
-Start test 6?[0m
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
-> 0
-
-Bye!
-?[1;31m
-Start test 7?[0m
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
-> 1
-
-Enter a name or email to search all suitable people.
-> this text never find some match
-No matching people found.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
-
-Incorrect option! Try again.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
-
-Incorrect option! Try again.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
-
-Incorrect option! Try again.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
-
-Incorrect option! Try again.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
-
-Incorrect option! Try again.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
-> 0
-
-Bye!
-?[1;31m
-Start test 8?[0m
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
-> 1
-
-Enter a name or email to search all suitable people.
-> h
-No matching people found.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
-> 1
-
-Enter a name or email to search all suitable people.
-> gallien@evilcorp.com
-Found people:
-Pasquale Gallien gallien@evilcorp.com
-Gerardo Strouth gallien@evilcorp.com
-Angelita Wigington gallien@evilcorp.com
-Demetria Hostetler gallien@evilcorp.com
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
-> 0
-
-Bye!
-?[1;31m
-Start test 9?[0m
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
-> 4
-
-Incorrect option! Try again.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
-> 2
-
-Kristofer Galley
-Fernando Marbury fernando_marbury@gmail.com
-Kristyn Nix nix-kris@gmail.com
-Regenia Enderle
-Malena Gray
-Colette Mattei
-Wendolyn Mcphillips
-Jim Gray
-Coreen Beckham
 Bob Yeh bobyeah@gmail.com
 Shannan Bob stropeshah@gmail.com
-Yer Fillion
+Carlene Bob
+Agripina Bob
+Bob Mans
+Pasquale Gallien gallien@evilcorp.com
+Gerardo Strouth gallien@evilcorp.com
+Angelita Wigington gallien@evilcorp.com
+Demetria Hostetler gallien@evilcorp.com
+Yer Leopold
+Alexis Leopold
+Drema Leopold
+Victorina Froehlich victory@gmail.com
+Malena Gray
+Malena Schommer
+Remi Malek fsociefy@gmail.com
+Victorina Froehlich victory@gmail.com
+Jim Gray
+Jonie Richter
+Simona Pereira
+Florencio Defibaugh
 Margene Resendez marres@gmail.com
 Blossom Ambler
-Teri Ledet teri_ledet@gmail.com
-Dana Baron baron@gmail.com
-Abram Goldsberry
-Yer Leopold
-Stefania Trunzo
-Alexis Leopold
-Carlene Bob
-Oliver Dacruz
-Jonie Richter
-Pasquale Gallien gallien@evilcorp.com
-Verdie Gentle
-Gerardo Strouth gallien@evilcorp.com
-Agripina Bob
-Latricia Niebuhr
-Malena Schommer
-Drema Leopold
-Heide Payeur
-Ranae Digiovanni
-Simona Pereira
-Nick Digiovanni
-Angelita Wigington gallien@evilcorp.com
-Elin Gray
-Dwain Trunzo
-Boris Beiler
-Remi Malek fsociefy@gmail.com
-Demetria Hostetler gallien@evilcorp.com
 Nydia Mcduffie
-Florencio Defibaugh
-Warner Giblin
-Bob Mans
-Shu Gray
-Kaycee Gray
-Victorina Froehlich victory@gmail.com
-Roseanne Gray
-Erica Radford hisam@gmail.com
-Elyse Pauling
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
-> 2
-
-Kristofer Galley
-Fernando Marbury fernando_marbury@gmail.com
 Kristyn Nix nix-kris@gmail.com
+Abram Goldsberry
+Verdie Gentle
+Kristyn Nix nix-kris@gmail.com
+Dana Baron baron@gmail.com
+Elin Gray
+Kristofer Galley
+Kaycee Gray
+Yer Fillion
+Boris Beiler
+Ranae Digiovanni
+Nick Digiovanni
+Margene Resendez marres@gmail.com
+Jonie Richter
+Nydia Mcduffie
+Warner Giblin
 Regenia Enderle
-Malena Gray
-Colette Mattei
-Wendolyn Mcphillips
-Jim Gray
-Coreen Beckham
+Agripina Bob
+Angelita Wigington gallien@evilcorp.com
 Bob Yeh bobyeah@gmail.com
 Shannan Bob stropeshah@gmail.com
-Yer Fillion
-Margene Resendez marres@gmail.com
-Blossom Ambler
-Teri Ledet teri_ledet@gmail.com
-Dana Baron baron@gmail.com
-Abram Goldsberry
-Yer Leopold
-Stefania Trunzo
-Alexis Leopold
 Carlene Bob
-Oliver Dacruz
-Jonie Richter
-Pasquale Gallien gallien@evilcorp.com
-Verdie Gentle
-Gerardo Strouth gallien@evilcorp.com
 Agripina Bob
-Latricia Niebuhr
-Malena Schommer
-Drema Leopold
-Heide Payeur
-Ranae Digiovanni
-Simona Pereira
-Nick Digiovanni
-Angelita Wigington gallien@evilcorp.com
-Elin Gray
-Dwain Trunzo
-Boris Beiler
-Remi Malek fsociefy@gmail.com
-Demetria Hostetler gallien@evilcorp.com
-Nydia Mcduffie
-Florencio Defibaugh
-Warner Giblin
 Bob Mans
+Heide Payeur
+Colette Mattei
+Boris Beiler
+Victorina Froehlich victory@gmail.com
+Fernando Marbury fernando_marbury@gmail.com
+Remi Malek fsociefy@gmail.com
+Gerardo Strouth gallien@evilcorp.com
+Dana Baron baron@gmail.com
+Latricia Niebuhr
+Shu Gray
+Kristofer Galley
+Elyse Pauling
+Coreen Beckham
+Carlene Bob
+Nick Digiovanni
+Gerardo Strouth gallien@evilcorp.com
+Malena Gray
+Jim Gray
+Elin Gray
 Shu Gray
 Kaycee Gray
-Victorina Froehlich victory@gmail.com
 Roseanne Gray
-Erica Radford hisam@gmail.com
-Elyse Pauling
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
-> 1
-
-Enter a name or email to search all suitable people.
-> this text never gonna be matched
-No matching people found.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
-
-Incorrect option! Try again.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
-
-Incorrect option! Try again.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
-
-Incorrect option! Try again.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
-
-Incorrect option! Try again.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
-
-Incorrect option! Try again.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
-> 1
-
-Enter a name or email to search all suitable people.
-> h
-No matching people found.
-
-=== Menu ===
-1. Find a person
-2. Print all people
-0. Exit
-> 1
-
-Enter a name or email to search all suitable people.
-> gallien@evilcorp.com
-Found people:
+Malena Schommer
+Remi Malek fsociefy@gmail.com
+Fernando Marbury fernando_marbury@gmail.com
+Kristyn Nix nix-kris@gmail.com
+Abram Goldsberry
+Stefania Trunzo
+Teri Ledet teri_ledet@gmail.com
+Wendolyn Mcphillips
+Bob Yeh bobyeah@gmail.com
 Pasquale Gallien gallien@evilcorp.com
 Gerardo Strouth gallien@evilcorp.com
 Angelita Wigington gallien@evilcorp.com
+Demetria Hostetler gallien@evilcorp.com
+Verdie Gentle
+Drema Leopold
+Teri Ledet teri_ledet@gmail.com
+Dana Baron baron@gmail.com
+Bob Yeh bobyeah@gmail.com
+Fernando Marbury fernando_marbury@gmail.com
+Blossom Ambler
+Stefania Trunzo
+Dwain Trunzo
+Heide Payeur
+Yer Fillion
+Yer Leopold
+Roseanne Gray
+Wendolyn Mcphillips
+Coreen Beckham
+Warner Giblin
+Bob Mans
+Teri Ledet teri_ledet@gmail.com
+Dwain Trunzo
+Erica Radford hisam@gmail.com
+Alexis Leopold
+Latricia Niebuhr
+Demetria Hostetler gallien@evilcorp.com
+Shannan Bob stropeshah@gmail.com
+Erica Radford hisam@gmail.com
+Colette Mattei
+Pasquale Gallien gallien@evilcorp.com
+Gerardo Strouth gallien@evilcorp.com
+Angelita Wigington gallien@evilcorp.com
+Demetria Hostetler gallien@evilcorp.com
+Shannan Bob stropeshah@gmail.com
+Margene Resendez marres@gmail.com
+Ranae Digiovanni
+Pasquale Gallien gallien@evilcorp.com
+Simona Pereira
+Elyse Pauling
+Regenia Enderle
+Oliver Dacruz
+Oliver Dacruz
+Angelita Wigington gallien@evilcorp.com
+Florencio Defibaugh
+Erica Radford hisam@gmail.com
 Demetria Hostetler gallien@evilcorp.com
 
 === Menu ===
@@ -603,7 +504,6 @@ Demetria Hostetler gallien@evilcorp.com
 2. Print all people
 0. Exit
 > 0
-
 Bye!
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

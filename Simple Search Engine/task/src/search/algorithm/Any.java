@@ -9,6 +9,7 @@ public class Any implements  InvertedIndex{
     @Override
     public List<Integer> start(List<String> date, List<String> dateForSearch) {
        Map<String ,List<Integer>> map = search(date);
+
        List<Integer> result = new ArrayList<>();
         for (String str:dateForSearch){
             for (String word :str.split(" ")){
