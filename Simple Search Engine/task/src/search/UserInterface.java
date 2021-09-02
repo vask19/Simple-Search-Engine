@@ -25,11 +25,11 @@ public class UserInterface {
 
             switch (answer){
                 case "1":
-                    printPerson(peoples);
+                    findPerson(peoples);
 
                     break;
                 case "2":
-                    printPerson();
+                    printAllPersons();
                     break;
                 case "0":
                     System.out.println("Bye!");
@@ -41,38 +41,33 @@ public class UserInterface {
         }while (true);
     }
 
-    private void printPerson(){
+    private void printAllPersons(){
         peoples.forEach(System.out::println);
 
     }
-    private void printPerson(List<String > date){
+    private void findPerson(List<String > date){
         System.out.println("Select a matching strategy: ALL, ANY, NONE");
         String strategy = sc.nextLine();
         switch (strategy){
             case "ALL":
                 invertedIndexSender.setIndex(new All());
                 break;
-
             case "ANY":
                 invertedIndexSender.setIndex(new Any());
                 break;
-
             case "NONE":
                 invertedIndexSender.setIndex(new None());
                 break;
-
         }
-
-
-        System.out.println("Enter a name or email to search all suitable people.");
+        System.out.println("\nEnter a name or email to search all suitable people.");
         String answer = sc.nextLine();
         List<String > dateForSearch = new ArrayList<>();
         dateForSearch.add(answer);
 
-        List<Integer> index = invertedIndexSender.start(date,dateForSearch);
+        Set<Integer> index  = new HashSet<>(invertedIndexSender.start(date,dateForSearch));
 
         if (index != null){
-            System.out.println("Found people:");
+            System.out.println("\n" + index.size() + " persons found:");
             index.forEach(in ->{
                 System.out.println(peoples.get(in));
             });

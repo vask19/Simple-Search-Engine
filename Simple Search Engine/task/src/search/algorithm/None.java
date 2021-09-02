@@ -13,14 +13,13 @@ public class None implements InvertedIndex {
         for (String str:dateForSearch){
             for (String word :str.split(" ")){
                 if (map.containsKey(word.toLowerCase(Locale.ROOT))){
-                    result.addAll(map.get(word.toLowerCase(Locale.ROOT)));
+                    index.addAll(map.get(word.toLowerCase(Locale.ROOT)));
                 }
             }
         }
         for (var entry:map.entrySet()){
             result.addAll(entry.getValue());
         }
-
 
         result.removeAll(index);
         return result;
